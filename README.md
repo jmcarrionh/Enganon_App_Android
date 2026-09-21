@@ -9,10 +9,6 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
-<br>
-
-[![Descargar APK](https://img.shields.io/badge/%F0%9F%93%A5%20Descargar-APK-3DDC84?style=for-the-badge)](https://github.com/jmcarrionh/Enganon_App_Android/releases/latest)
-
 </div>
 
 <br>
@@ -27,7 +23,15 @@ Proyecto desarrollado como Trabajo Fin de Grado (TFG) del ciclo de Desarrollo de
 
 ## 📥 Descarga
 
-Puedes probar la app sin compilar nada. Usa el botón **Descargar APK** de arriba o entra en la [página de versiones](https://github.com/jmcarrionh/Enganon_App_Android/releases).
+Puedes probar la app sin compilar nada:
+
+<div align="center">
+
+[![Descargar APK](https://img.shields.io/badge/%F0%9F%93%A5%20Descargar-APK-3DDC84?style=for-the-badge)](https://github.com/jmcarrionh/Enganon_App_Android/releases/latest)
+
+[Ver todas las versiones](https://github.com/jmcarrionh/Enganon_App_Android/releases)
+
+</div>
 
 1. Descarga el archivo `.apk`.
 2. Ábrelo en tu móvil Android (7.0 o superior).
