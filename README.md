@@ -71,4 +71,10 @@ Puedes probar la app sin compilar nada:
 
 ---
 
+<div align="center">
+
+<img src="logo.png" alt="Logo de Engañón" width="260">
+
 Desarrollado por **Juan Miguel Carrión Hidalgo** · [GitHub](https://github.com/jmcarrionh)
+
+</div>
