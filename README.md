@@ -27,17 +27,9 @@ Proyecto desarrollado como Trabajo Fin de Grado (TFG) del ciclo de Desarrollo de
 
 ## 📥 Descarga
 
-Puedes probar la app sin compilar nada:
+Puedes probar la app sin compilar nada. Usa el botón **Descargar APK** de arriba o entra en la [página de versiones](https://github.com/jmcarrionh/Enganon_App_Android/releases).
 
-<div align="center">
-
-[![Descargar última versión](https://img.shields.io/badge/%F0%9F%93%A5%20Descargar-%C3%9Altima%20versi%C3%B3n-3DDC84?style=for-the-badge)](https://github.com/jmcarrionh/Enganon_App_Android/releases/latest)
-
-[Ver todas las versiones](https://github.com/jmcarrionh/Enganon_App_Android/releases)
-
-</div>
-
-1. Descarga el archivo `.apk` desde la página de Releases.
+1. Descarga el archivo `.apk`.
 2. Ábrelo en tu móvil Android (7.0 o superior).
 3. Si el sistema lo pide, permite la instalación de aplicaciones de origen desconocido.
 
