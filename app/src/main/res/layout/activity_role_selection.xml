@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Nombre"
+        android:textColor="#4E342E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineTop"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#334E342E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPlayerName" />
+
+    <TextView
+        android:id="@+id/tvMottoTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tu identidad es secreta"
+        android:textColor="#8D6E63"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lineTop" />
+
+    <FrameLayout
+        android:id="@+id/containerBox"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:clipChildren="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMottoTop"
+        app:layout_constraintBottom_toTopOf="@+id/tvMottoBottom"
+        app:layout_constraintVertical_bias="0.45">
+
+        <LinearLayout
+            android:id="@+id/llSecretContent"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_player_bg"
+            android:backgroundTint="#F2E6D0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:elevation="0dp">
+
+            <TextView
+                android:id="@+id/tvRoleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROL"
+                android:textColor="#8D6E63"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.1" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_marginVertical="15dp"
+                android:background="#224E342E" />
+
+            <TextView
+                android:id="@+id/tvSecretInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PALABRA"
+                android:textColor="#4E342E"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSecretHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="PISTA"
+                android:textColor="#6D4C41"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/llCover"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:background="@drawable/avatar_ring"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/avatar_clip"
+                android:clipToOutline="true"
+                android:src="@drawable/avatar1" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvMottoBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Desliza para ver tu rol"
+        android:textColor="#8D6E63"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/lineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/lineBottom"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="#334E342E"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#C2AE8D"
+        android:paddingVertical="12dp"
+        android:text="ENTENDIDO"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

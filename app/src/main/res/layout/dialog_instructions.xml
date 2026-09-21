@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDF5E6"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Guía de Engañón"
+        android:textColor="#4E342E"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="16dp"
+        android:background="#D9C5A3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="1. Registro\nAñade a los jugadores uno a uno.\n\n2. Configuración\nElige cuántos Engañones y Encarnis habrá en la partida.\n\n3. El Secreto\nCada jugador desliza su avatar para ver su información:\n   • Participante: Ve la palabra secreta.\n   • Engañón: Solo ve la pista.\n   • Encarni: Ve la palabra y la pista.\n\n4. El Debate\nHablad, haced preguntas y descubrid quién miente.\n\n5. Votación\nVotad al sospechoso. Si el Engañón sobrevive hasta que solo queden 2 jugadores... ¡él gana!"
+            android:textColor="#2E1A11"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCerrarInst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D9C5A3"
+        android:text="¡A JUGAR!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+</LinearLayout>
